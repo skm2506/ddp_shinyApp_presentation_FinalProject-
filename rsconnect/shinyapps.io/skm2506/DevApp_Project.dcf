@@ -1,0 +1,12 @@
+name: DevApp_Project
+title: DevApp_Project
+username:
+account: skm2506
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 207774
+bundleId: 956487
+url: https://skm2506.shinyapps.io/DevApp_Project/
+when: 1503861882.14085
+asMultiple: FALSE
+asStatic: FALSE
