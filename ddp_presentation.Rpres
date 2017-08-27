@@ -1,0 +1,41 @@
+
+
+ddp_shinyApp_presentation_FinalProject
+========================================================
+author: Shashikesh Mishra
+date:   2017-08-28
+autosize: true
+
+Overview
+========================================================
+This was built as part of a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
+The shiny interactive app developed for the first part of the assignment is avalilable at: https://skm2506.shinyapps.io/DevApp_Project/
+
+Source code for ui.R and server.R files are available on the GitHub repository: https://github.com/skm2506/ddp_shinyApp_presentation_FinalProject-
+
+Shiny_App: functionality and feature
+=======================================================
+This application predicts the horsepower of a car given the fuel efficiency in miles per gallon for the car.
+Under this Shiny app we will use base package "mtcars" data set to predict the fuel efficincy.
+I have used one interactive graph along with sidebar slider, where we can can adjust our data range.
+I have also added added added submit buton, so we can manupulate our data easily with affecting graph.
+I have used two model in this data set model 1 & Model 2 along with baseline that well helpful for us to understand the prediction trend.
+
+str of data
+=======================================================
+```{r}
+str(mtcars)
+```
+
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars)
+```
